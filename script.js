@@ -3,7 +3,7 @@ document.addEventListener('DOMContentLoaded', function() {
     const gallery = document.getElementById('gallery');
 
     // Fetch JSON data from the server hosting the JSON file
-    fetch('Rococo_Art_Collection.json')  // Update the path to where the JSON file is hosted
+    fetch('https://samitaprakash.github.io/gallery/Rococo_Art_Collection.json')  // Update the path to where the JSON file is hosted
     .then(response => response.json())
     .then(data => {
         data.forEach(img => {
