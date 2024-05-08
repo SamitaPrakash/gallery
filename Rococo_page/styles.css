@@ -174,7 +174,26 @@ p{
     font-size: 16px;
 }
 
+.older-iterations {
+    text-align: center; /* Center-align the text and links */
+    margin: 40px 0; /* Increase vertical spacing around the section for better separation */
+    font-size: 18px; /* Slightly larger font size for better readability */
+    color: #333; /* Darker text color for elegance and readability */
+    padding: 20px; /* Padding to give more space inside the section */
+    background-color: #f8f9fa; /* Subtle background color to distinguish the section */
+    border-radius: 8px; /* Soft rounded corners for a modern look */
+}
 
+.older-iterations a {
+    color: #614848; /* A deeper blue for a more professional look */
+    text-decoration: none; /* Keep links clean without underline */
+    font-weight: 500; /* Medium font weight for better emphasis */
+    margin: 0 10px; /* Proper spacing between links */
+}
+
+.older-iterations a:hover {
+    text-decoration: underline; /* Underline on hover for traditional link interaction */
+}
 
 /* Medium screens (tablets) */
 @media (max-width: 768px) {
